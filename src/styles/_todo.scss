@@ -1,0 +1,114 @@
+.todo-app {
+  background: $bg;
+}
+
+.todo-app-inner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 40px;
+  gap: 20px;
+}
+
+.todo-header {
+  width: 100%;
+  max-width: 600px;
+
+  background: $primary;
+  color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.todo-form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  button {
+    width: 100%;
+    background: $tertiary;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    color: $primary;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+.input-group {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 18px;
+
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    resize: none;
+  }
+}
+
+.category {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.category-group {
+  display: flex;
+  gap: 5px;
+  font-size: 18px;
+}
+
+.todo-body {
+  width: 100%;
+  max-width: 600px;
+
+  max-height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  border-radius: 6px;
+}
+
+.todo-list {
+  width: 100%;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column-reverse;
+  gap: 20px;
+
+  background: $primary;
+  color: #fff;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.todo {
+  overflow: hidden;
+  width: 100%;
+  min-height: 47px;
+  background: $tertiary;
+  padding: 10px;
+  border-radius: 6px;
+}
